@@ -1,0 +1,18 @@
+{
+	"0": {
+		"name": "claus astor'a",
+		"race": "viera",
+		"clan": "rava",
+		"title": "stormbringer",
+		"affiliation": "scions' of the seventh dawn",
+		"job": "warrior, viper"
+	},
+	"1": {
+		"name": "l'eif dainn",
+		"race": "miqot'e",
+		"clan": "keeper of the moon",
+		"title": "wandering vanguard",
+		"affiliation": "sky pirates",
+		"job": "gunbreaker, machinist"
+	}
+}
