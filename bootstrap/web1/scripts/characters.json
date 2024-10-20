@@ -1,18 +1,16 @@
 {
 	"0": {
-		"name": "claus astor'a",
-		"race": "viera",
-		"clan": "rava",
-		"title": "stormbringer",
-		"affiliation": "scions' of the seventh dawn",
-		"job": "warrior, viper"
+		"name": "Claus Hriddyr",
+		"race": "Viera",
+		"clan": "Rava",
+		"title": "Stormbringer",
+		"job": "Warrior, Viper, Dragoon"
 	},
 	"1": {
-		"name": "l'eif dainn",
-		"race": "miqot'e",
-		"clan": "keeper of the moon",
+		"name": "L'eif Dainn",
+		"race": "Miqo'te",
+		"clan": "Keeper of the Moon",
 		"title": "wandering vanguard",
-		"affiliation": "sky pirates",
-		"job": "gunbreaker, machinist"
+		"job": " Paladin, Gunbreaker, Machinist"
 	}
 }

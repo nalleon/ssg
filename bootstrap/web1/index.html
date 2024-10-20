@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Friki</title>
+    <title>Outer Heaven</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .hero {
-            background: url('https://via.placeholder.com/1500x500') no-repeat center center;
+        .main-title {
+            background: url('./img/background-sed.jpg') no-repeat center center;
             background-size: cover;
             height: 500px;
             position: relative;
         }
-        .hero-text {
+        .main-title-text {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -20,77 +20,172 @@
             color: white;
             text-align: center;
         }
+
+        .main-title-text h1{
+            font-weight: bold;
+        }
+
+        .main-title-text p {
+            font-style: italic;
+            font-weight: bold;
+            font-variant: small-caps;
+            color: #93aa9a;
+        }
+
+        .btn-custom {
+            background-color: #6da07b; 
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #2f6b41; 
+            color: white;
+        }
+        .card-deck {
+            justify-content: center;
+        }
+
+        .navbar-custom {
+            background-color: #1e1e1e; 
+            border: 2px solid #213328;
+        }
+        .navbar-brand{
+            color: white;
+            font-weight: bold;
+        }
+        
+        .card{
+            background-color: transparent;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover{
+            background-color: #f6f6f6;
+        }
+
     </style>
-<link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/><script  type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script></head>
+    <link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/>
+    <script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script>
+    <script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script>
+    <script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script>
+    <script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script>
+</head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Start</a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <a class="navbar-brand" href="#">Outer Heaven</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Characters</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                    <a class="nav-link" href="#">Zones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#">Weapons</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <div class="hero">
-        <div class="hero-text">
-            <h1>Bienvenidos a FrikiWeb</h1>
-            <p>Tu portal de contenido geek</p>
+    <div class="main-title">
+        <div class="main-title-text">
+            <h1>METAL GEAR SOLID</h1>
+            <p>Tactical Espionage Action</p>
         </div>
     </div>
 
-    <!-- Grid Section -->
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row card-deck">
+            <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <img src="./img/mgs1-g.jpg" class="card-img-top" alt="mgs1">
                     <div class="card-body">
-                        <h5 class="card-title">Artículo 1</h5>
-                        <p class="card-text">Descripción del artículo 1.</p>
-                        <a href="#" class="btn btn-primary">Leer más</a>
+                        <h5 class="card-title">Twin Snakes</h5>
+                        <p class="card-text">Metal Gear Solid</p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid_(1998_video_game)" target="_blank" class="btn btn-custom">Leer más</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <img src="./img/mgs2-g.jpg" class="card-img-top" alt="mgs2">
                     <div class="card-body">
-                        <h5 class="card-title">Artículo 2</h5>
-                        <p class="card-text">Descripción del artículo 2.</p>
-                        <a href="#" class="btn btn-primary">Leer más</a>
+                        <h5 class="card-title">Sons of Liberty</h5>
+                        <p class="card-text">Metal Gear Solid II</p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid_2:_Sons_of_Liberty" target="_blank" class="btn btn-custom">Leer más</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <img src="./img/mgs3-g.jpg" class="card-img-top" alt="mgs3">
                     <div class="card-body">
-                        <h5 class="card-title">Artículo 3</h5>
-                        <p class="card-text">Descripción del artículo 3.</p>
-                        <a href="#" class="btn btn-primary">Leer más</a>
+                        <h5 class="card-title">Snake Eater</h5>
+                        <p class="card-text">Metal Gear Solid III</p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid_3:_Snake_Eater" target="_blank" class="btn btn-custom">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/mgs4-g.jpg" class="card-img-top" alt="mgs4">
+                    <div class="card-body">
+                        <h5 class="card-title">Guns Of The Patriots</h5>
+                        <p class="card-text">Metal Gear Solid IV</p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid_4:_Guns_of_the_Patriots" target="_blank"  class="btn btn-custom">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/mgspw-g.jpg" class="card-img-top" alt="mgspw">
+                    <div class="card-body">
+                        <h5 class="card-title">Peace Walker</h5>
+                        <p class="card-text">Metal Gear Solid</p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid:_Peace_Walker" target="_blank" class="btn btn-custom">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/mgs5-g.jpg" class="card-img-top" alt="mgs5gz">
+                    <div class="card-body">
+                        <h5 class="card-title">Ground Zeroes</h5>
+                        <p class="card-text">Metal Gear Solid V</p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid_V:_Ground_Zeroes" target="_blank" class="btn btn-custom">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/mgs5-tpp-g.jpg" class="card-img-top" alt="mgs5tpp">
+                    <div class="card-body">
+                        <h5 class="card-title">The Phantom Pain</h5>
+                        <p class="card-text">Metal Gear Solid V</p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid_V:_The_Phantom_Pain" target="_blank" class="btn btn-custom">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/mgrr-g.jpg" class="card-img-top" alt="mgrr">
+                    <div class="card-body">
+                        <h5 class="card-title">Revengeance</h5>
+                        <p class="card-text">Metal Gear Rising </p>
+                        <a href="https://en.wikipedia.org/wiki/Metal_Gear_Rising:_Revengeance" target="_blank" class="btn btn-custom">Leer más</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3 mt-5">
-        <p>© 2024 FrikiWeb. Todos los derechos reservados.</p>
+    <footer class="navbar-custom text-white text-center py-2 mt-5">
+        <p>© 2024 Outer Heaven. All rights reserved.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -98,4 +193,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
